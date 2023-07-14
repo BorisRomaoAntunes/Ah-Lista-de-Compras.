@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A169EF9B2A619818004B42C6 /* ViewValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169EF9A2A619818004B42C6 /* ViewValue.swift */; };
+		A169EF9D2A619931004B42C6 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A169EF9C2A619931004B42C6 /* Nunito-VariableFont_wght.ttf */; };
+		A169EFA12A61A495004B42C6 /* ButtonNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169EFA02A61A495004B42C6 /* ButtonNavigation.swift */; };
+		A1A3A4122A5DA446000C64C5 /* IconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A4112A5DA446000C64C5 /* IconApp.swift */; };
+		A1A3A4142A5DA9B0000C64C5 /* ScreenHomeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A4132A5DA9B0000C64C5 /* ScreenHomeFirst.swift */; };
+		A1A3A4162A5DAF41000C64C5 /* ButtonOK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A4152A5DAF41000C64C5 /* ButtonOK.swift */; };
+		A1A3A41A2A5DB8CA000C64C5 /* Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A4192A5DB8CA000C64C5 /* Teste.swift */; };
+		A1A3A4382A5DC178000C64C5 /* ItemCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A4362A5DC178000C64C5 /* ItemCoreData.xcdatamodeld */; };
+		A1A3A43A2A5DC28F000C64C5 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A4392A5DC28F000C64C5 /* DataController.swift */; };
+		A1A3A43C2A5DC9A3000C64C5 /* ScreenHomeFirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A43B2A5DC9A3000C64C5 /* ScreenHomeFirstViewModel.swift */; };
+		A1A3A43E2A5DD014000C64C5 /* viewLIst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A43D2A5DD014000C64C5 /* viewLIst.swift */; };
+		A1A3A4402A5DD209000C64C5 /* TitleLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A43F2A5DD209000C64C5 /* TitleLists.swift */; };
+		A1A3A4462A5DE9CC000C64C5 /* viewListItens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3A4452A5DE9CC000C64C5 /* viewListItens.swift */; };
 		A1DC36392A5A375100970993 /* Ah__Lista_de_ComprasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC36382A5A375100970993 /* Ah__Lista_de_ComprasApp.swift */; };
 		A1DC363B2A5A375100970993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC363A2A5A375100970993 /* ContentView.swift */; };
 		A1DC363D2A5A375200970993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DC363C2A5A375200970993 /* Assets.xcassets */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A169EF9A2A619818004B42C6 /* ViewValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewValue.swift; sourceTree = "<group>"; };
+		A169EF9C2A619931004B42C6 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A169EFA02A61A495004B42C6 /* ButtonNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNavigation.swift; sourceTree = "<group>"; };
+		A1A3A4112A5DA446000C64C5 /* IconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconApp.swift; path = "Ah! Lista de Compras/View/Screen/IconApp.swift"; sourceTree = SOURCE_ROOT; };
+		A1A3A4132A5DA9B0000C64C5 /* ScreenHomeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenHomeFirst.swift; sourceTree = "<group>"; };
+		A1A3A4152A5DAF41000C64C5 /* ButtonOK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOK.swift; sourceTree = "<group>"; };
+		A1A3A4192A5DB8CA000C64C5 /* Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste.swift; sourceTree = "<group>"; };
+		A1A3A4372A5DC178000C64C5 /* ItemCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ItemCoreData.xcdatamodel; sourceTree = "<group>"; };
+		A1A3A4392A5DC28F000C64C5 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		A1A3A43B2A5DC9A3000C64C5 /* ScreenHomeFirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenHomeFirstViewModel.swift; sourceTree = "<group>"; };
+		A1A3A43D2A5DD014000C64C5 /* viewLIst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewLIst.swift; sourceTree = "<group>"; };
+		A1A3A43F2A5DD209000C64C5 /* TitleLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLists.swift; sourceTree = "<group>"; };
+		A1A3A4452A5DE9CC000C64C5 /* viewListItens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewListItens.swift; sourceTree = "<group>"; };
 		A1DC36352A5A375100970993 /* Ah! Lista de Compras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ah! Lista de Compras.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DC36382A5A375100970993 /* Ah__Lista_de_ComprasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ah__Lista_de_ComprasApp.swift; sourceTree = "<group>"; };
 		A1DC363A2A5A375100970993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +62,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A169EF9F2A619BE6004B42C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A169EF9C2A619931004B42C6 /* Nunito-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A1A3A40F2A5DA293000C64C5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A1A3A4112A5DA446000C64C5 /* IconApp.swift */,
+				A1A3A4152A5DAF41000C64C5 /* ButtonOK.swift */,
+				A1A3A43F2A5DD209000C64C5 /* TitleLists.swift */,
+				A169EF9A2A619818004B42C6 /* ViewValue.swift */,
+				A169EFA02A61A495004B42C6 /* ButtonNavigation.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A1A3A4102A5DA312000C64C5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A1A3A4132A5DA9B0000C64C5 /* ScreenHomeFirst.swift */,
+				A1DC36492A5A42BF00970993 /* FirstAcessList.swift */,
+				A1A3A43D2A5DD014000C64C5 /* viewLIst.swift */,
+				A1A3A4452A5DE9CC000C64C5 /* viewListItens.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A1A3A41B2A5DB8E0000C64C5 /* Teste */ = {
+			isa = PBXGroup;
+			children = (
+				A1A3A4192A5DB8CA000C64C5 /* Teste.swift */,
+			);
+			name = Teste;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		A1DC362C2A5A375100970993 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +127,7 @@
 				A1DC36472A5A378700970993 /* ViewModel */,
 				A1DC36482A5A379600970993 /* Model */,
 				A1DC363E2A5A375200970993 /* Preview Content */,
+				A1A3A41B2A5DB8E0000C64C5 /* Teste */,
 			);
 			path = "Ah! Lista de Compras";
 			sourceTree = "<group>";
@@ -77,7 +144,9 @@
 		A1DC36462A5A377F00970993 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A1DC36492A5A42BF00970993 /* FirstAcessList.swift */,
+				A1A3A40F2A5DA293000C64C5 /* Shared */,
+				A1A3A4102A5DA312000C64C5 /* Screen */,
+				A169EF9F2A619BE6004B42C6 /* Fonts */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -85,6 +154,8 @@
 		A1DC36472A5A378700970993 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A1A3A43B2A5DC9A3000C64C5 /* ScreenHomeFirstViewModel.swift */,
+				A1A3A4392A5DC28F000C64C5 /* DataController.swift */,
 				A1DC364B2A5A43CE00970993 /* ColorButtoSimple.swift */,
 			);
 			path = ViewModel;
@@ -93,6 +164,7 @@
 		A1DC36482A5A379600970993 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A1A3A4362A5DC178000C64C5 /* ItemCoreData.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DC36402A5A375200970993 /* Preview Assets.xcassets in Resources */,
+				A169EF9D2A619931004B42C6 /* Nunito-VariableFont_wght.ttf in Resources */,
 				A1DC363D2A5A375200970993 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,9 +241,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DC364C2A5A43CE00970993 /* ColorButtoSimple.swift in Sources */,
+				A1A3A4162A5DAF41000C64C5 /* ButtonOK.swift in Sources */,
+				A1A3A4122A5DA446000C64C5 /* IconApp.swift in Sources */,
+				A1A3A43C2A5DC9A3000C64C5 /* ScreenHomeFirstViewModel.swift in Sources */,
+				A1A3A43E2A5DD014000C64C5 /* viewLIst.swift in Sources */,
 				A1DC364A2A5A42BF00970993 /* FirstAcessList.swift in Sources */,
 				A1DC363B2A5A375100970993 /* ContentView.swift in Sources */,
+				A1A3A43A2A5DC28F000C64C5 /* DataController.swift in Sources */,
+				A1A3A4402A5DD209000C64C5 /* TitleLists.swift in Sources */,
+				A1A3A41A2A5DB8CA000C64C5 /* Teste.swift in Sources */,
 				A1DC36392A5A375100970993 /* Ah__Lista_de_ComprasApp.swift in Sources */,
+				A1A3A4142A5DA9B0000C64C5 /* ScreenHomeFirst.swift in Sources */,
+				A1A3A4462A5DE9CC000C64C5 /* viewListItens.swift in Sources */,
+				A169EFA12A61A495004B42C6 /* ButtonNavigation.swift in Sources */,
+				A169EF9B2A619818004B42C6 /* ViewValue.swift in Sources */,
+				A1A3A4382A5DC178000C64C5 /* ItemCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +387,8 @@
 				DEVELOPMENT_TEAM = K9B45X443Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ah--Lista-de-Compras-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -331,6 +418,8 @@
 				DEVELOPMENT_TEAM = K9B45X443Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ah--Lista-de-Compras-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -371,6 +460,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1A3A4362A5DC178000C64C5 /* ItemCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1A3A4372A5DC178000C64C5 /* ItemCoreData.xcdatamodel */,
+			);
+			currentVersion = A1A3A4372A5DC178000C64C5 /* ItemCoreData.xcdatamodel */;
+			path = ItemCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1DC362D2A5A375100970993 /* Project object */;
 }

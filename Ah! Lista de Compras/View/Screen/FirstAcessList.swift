@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct FirstAcessList: View {
+    @StateObject var viewModelCoreData = DataController()
+
+    @Environment(\.managedObjectContext) var managedObjContext
     @FocusState private var focuImput: Bool
     
-    @State var firstList = ""
+    @Environment(\.dismiss) var dismiss
     
 
     var body: some View {
@@ -25,7 +28,7 @@ struct FirstAcessList: View {
                 VStack(alignment: .leading){
                     Text("DIGITE O NOME DA LISTA")
                         .foregroundColor(.secondary)
-                    TextField("Nome da Lista", text: $firstList)
+                    TextField("Nome da Lista", text: $viewModelCoreData.firstList)
                         .focused($focuImput)
                         .font(.system(size: 20))
                         .fontWeight(.bold)
@@ -36,7 +39,8 @@ struct FirstAcessList: View {
                 }
                 .padding(.vertical, 20)
                 Button{
-                    
+                    DataController().AddNewList(nameList: viewModelCoreData.firstList, context: managedObjContext)
+                    dismiss()
                 } label: {
                     Text("ADICIONAR LISTA")
                         .foregroundColor(.black)
@@ -53,13 +57,10 @@ struct FirstAcessList: View {
                         .padding()
                 }
             }
-            
             .padding()
             .clipShape(RoundedRectangle(cornerRadius: 60))
             .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .top)
             .background(.gray.opacity(0.45))
-            
-            
         }
         .onAppear{
             focuImput = true
